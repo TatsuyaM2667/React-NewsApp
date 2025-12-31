@@ -2,8 +2,8 @@
 
 ## 概要
 
-このアプリは、**React Native**（Expo）を使って作成されたニュース閲覧アプリです。  
-ニュースAPI（[NewsAPI.org](https://newsapi.org/)）から記事を取得し、カテゴリごとに表示します。
+このアプリは、**React Native**（Expo）を使って作成されたニュース閲覧アプリ。  
+ニュースAPI（[NewsAPI.org](https://newsapi.org/)）から記事を取得し、カテゴリごとに表示する。
 
 ---
 
@@ -32,7 +32,7 @@ First-NewsApp/
 
 ### 1. `.env`ファイルでAPIキーを管理
 
-APIキーは**.envファイル**に保存します。  
+APIキーは**.envファイル**に保存。  
 例:
 ```env
 EXPO_PUBLIC_NEWS_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -48,7 +48,7 @@ EXPO_PUBLIC_NEWS_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### 3. `app.json`でExpoのextraにAPIキーを渡す
 
-`app.json`の`extra`フィールドで、`.env`の値をExpoアプリに渡します。
+`app.json`の`extra`フィールドで、`.env`の値をExpoアプリに渡す。
 
 ```json
 "extra": {
@@ -58,7 +58,7 @@ EXPO_PUBLIC_NEWS_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### 4. コード内でAPIキーを参照
 
-各画面やAPI呼び出し部分で、`expo-constants`を使ってAPIキーを取得します。
+各画面やAPI呼び出し部分で、`expo-constants`を使ってAPIキーを取得する。
 
 ```typescript
 import Constants from 'expo-constants';
