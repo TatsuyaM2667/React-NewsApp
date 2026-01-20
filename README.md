@@ -134,3 +134,5 @@ export default function TechnologyScreen() {
 ## 👨‍💻 作者
 - [TatsuyaM2667](https://github.com/TatsuyaM2667)
 
+## License
+MIT License (Attribution Required — © 2025 TatsuyaM2667)
